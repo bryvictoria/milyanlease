@@ -1,5 +1,9 @@
 <?php
 
+ini_set('display_errors', 'Off');
+ini_set('display_startup_errors', 'Off');
+error_reporting(0);
+
 $runtimeDirectory = sys_get_temp_dir();
 $cacheDirectory = $runtimeDirectory;
 

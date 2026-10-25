@@ -178,7 +178,7 @@
           ABOUT MiLYANLEASE
         </h2>
 
-        <p style="text-align:justify;font-family: Bookman Old Style;">
+        <p style="text-align:justify;">
           MP started to move in in studio unit owned by his Significant Other  year 2020 with her New Born Baby Girl at Osmena East Building, despite of the pandemic, MP is pro-active. Because of those hypocrite, MP got an idea to use MP as her acronym.
 		<br />
 		<br />
@@ -710,7 +710,7 @@ background: #199EB8;
   max-width: 950px;
   margin: 0 auto;
   color: #fff;
-  font-size: clamp(2.7rem, 6vw, 5.4rem);
+  font-size: clamp(2.2rem, 4vw, 3.5rem);
   font-weight: 750;
   letter-spacing: -0.045em;
   line-height: 1.04;

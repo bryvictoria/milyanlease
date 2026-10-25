@@ -30,9 +30,6 @@
 		<link href="assets/img/favicon.png" rel="icon">
 		<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-		<!-- Google Fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700|Roboto:400,900" rel="stylesheet">
-
 		<!-- Vendor CSS Files -->
 		<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">

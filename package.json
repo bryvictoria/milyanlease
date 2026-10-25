@@ -28,6 +28,7 @@
         "vue-router": "^4.2.4",
         "vue-scrollto": "^2.20.0",
         "vue-tabler-icons": "^2.21.0",
-        "vuetify": "^3.3.9"
+        "vuetify": "^3.3.9",
+        "ziggy-js": "1.6.0"
     }
 }

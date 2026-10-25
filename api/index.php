@@ -13,6 +13,16 @@ if (DIRECTORY_SEPARATOR === '\\') {
     $cacheDirectory = 'storage/framework/testing';
 }
 
+$viewDirectory = $runtimeDirectory.'/views';
+
+if (! is_dir($viewDirectory) && ! mkdir($viewDirectory, 0775, true) && ! is_dir($viewDirectory)) {
+    throw new RuntimeException('Unable to create the compiled view directory.');
+}
+
+$viewCompiledPath = DIRECTORY_SEPARATOR === '\\'
+    ? $cacheDirectory.'/views'
+    : $viewDirectory;
+
 $databasePath = $runtimeDirectory.'/milyanlease-demo.sqlite';
 $databaseTemplate = __DIR__.'/../database/database.sqlite';
 
@@ -44,6 +54,7 @@ try {
 foreach ([
     'APP_SERVICES_CACHE' => $cacheDirectory.'/milyanlease-services.php',
     'APP_PACKAGES_CACHE' => $cacheDirectory.'/milyanlease-packages.php',
+    'VIEW_COMPILED_PATH' => $viewCompiledPath,
     'DB_CONNECTION' => 'sqlite',
     'DB_DATABASE' => $databasePath,
     'DATABASE_URL' => '',

@@ -14,7 +14,7 @@ if (DIRECTORY_SEPARATOR === '\\') {
 }
 
 $databasePath = $runtimeDirectory.'/milyanlease-demo.sqlite';
-$databaseTemplate = __DIR__.'/../database/demo.sqlite';
+$databaseTemplate = __DIR__.'/../database/database.sqlite';
 
 $lock = fopen($runtimeDirectory.'/milyanlease-demo.lock', 'c');
 
